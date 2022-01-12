@@ -17,6 +17,8 @@
     padding: 16px;
 }
 
+
+
 h4 {
     font-family: Baskerville;
 }
@@ -42,17 +44,19 @@ ul {
     color: whitesmoke;
 }
 
-/*.skills li {*/
-/*    background-color: cornflowerblue;*/
-/*    margin: 5px;*/
-/*}*/
 
 .skills h3:after {
     content: "";
     display: block;
     border-bottom: 1px solid black;
-
 }
+
+.soft-skills h3:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+}
+
 
 li {
     padding-top: 16px;

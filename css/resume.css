@@ -99,3 +99,7 @@ li {
 .project-name {
     font-size: 24px;
 }
+
+.experience ul {
+    list-style-type: square;
+}

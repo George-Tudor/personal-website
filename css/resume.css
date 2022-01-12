@@ -1,15 +1,16 @@
 .profile-picture {
     height: 100%;
     width: 290px;
-    border: solid 1px black;
+    /*border: solid 1px black;*/
     border-radius: 50%;
     margin: 28px;
 
 }
 
 .summary {
-    border: 1px solid black;
-    background-color: lightgray;
+    /*border: 1px solid black;*/
+    background-color: dodgerblue;
+    color: whitesmoke;
     float: right;
     display: block;
     margin: 32px 0 32px 32px;
@@ -22,12 +23,35 @@ h4 {
 
 .sidebar {
     max-width: 400px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 ul {
     list-style-type: none;
     padding-right: 49px;
+}
+
+.skills ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.skill {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+/*.skills li {*/
+/*    background-color: cornflowerblue;*/
+/*    margin: 5px;*/
+/*}*/
+
+.skills h3:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+
 }
 
 li {

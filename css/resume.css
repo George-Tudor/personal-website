@@ -113,11 +113,9 @@ li {
     height: 100%;
     text-align: center;
     z-index: 1000;
-    border: 3px solid red;
 }
 
 #screenshot-window div {
-    border: 3px solid red;
     width: 350px;
     height: 80px;
     margin: 100px auto;
